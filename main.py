@@ -6,13 +6,13 @@ import requests
 import websocket
 from keep_alive import keep_alive
 
-status = "dnd"
+status = "HGTT • 14"
 
 GUILD_ID = 832579380634451969
-CHANNEL_ID = 1052339209622519938 
+CHANNEL_ID = 1284689135113605140 
 SELF_MUTE = True
 SELF_DEAF = False
-SELF_VIDEO = False
+SELF_VIDEO = True
 
 
 usertoken = os.getenv("TOKEN")
